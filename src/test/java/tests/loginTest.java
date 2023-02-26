@@ -18,7 +18,7 @@ public class loginTest {
 	
 	
 	@DisplayName("Login - 06")
-	@Tag("ZoltanTest")
+	//@Tag("ZoltanTest")
 	@Test
     void login(){
     	driver.get("https://www.saucedemo.com/");

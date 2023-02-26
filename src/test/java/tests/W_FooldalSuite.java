@@ -14,8 +14,8 @@ import org.junit.platform.suite.api.SuiteDisplayName;
 @Suite
 @SuiteDisplayName("ZoltanTag")
 @SelectPackages("tests")
-@IncludeTags("ZoltanTest")
+@IncludeTags("FooldalTest")
 
-public class ZoltanSuite {
+public class W_FooldalSuite {
 
 }
