@@ -66,15 +66,9 @@ public class nyitoOldal {
     }
     
     public WebElement gettxtAcceptUser() {
-
-    	
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement element = wait.until(ExpectedConditions.visibilityOf(txtAcceptUser));
 		
-		
-		System.out.println("*********************");
-		System.out.println(txtAcceptUser.getText());
-
 		
 		return element;
     }
